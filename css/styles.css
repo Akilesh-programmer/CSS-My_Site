@@ -1,24 +1,53 @@
 .top-container {
     background-color: #E4F9F5;
+    padding: 100px 20px 20px 20px;
+    position: relative;
 }
 
 body {
     margin-top: 0px;
     margin-left: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif; 
 }
 
 h1 {
     margin-top: 0px;
+    font-family: 'Sacramento', serif;
+    
+}
+
+h2 {
+    font-family: 'Montserrat', serif;
+}
+
+h3 {
+    font-family: 'Montserrat', serif;
 }
 
 .middle-container {
     height: 200px;
     width: 200px;
     background-color: red;
+    
 }
 
 .bottom-container {
     height: 200px;
     width: 200px;
-    background-color: blue;
+    background-color: yellow;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.bottom-cloud {
+    position: absolute; 
+}
+
+.top-cloud {
+    position: absolute;
+    bottom: 500px;
+    right: 475px;
 }
